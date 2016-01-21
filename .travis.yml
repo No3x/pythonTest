@@ -3,6 +3,6 @@ python:
   - "2.6"
   - "2.7"
 # command to install dependencies
-install: "for req in $(cat requirements.txt); do "pip install $req"; done"
+install: "for req in $(cat requirements.txt); 'do pip install $req'; done"
 # command to run tests
 script: python Test.py
