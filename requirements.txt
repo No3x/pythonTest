@@ -1,4 +1,5 @@
 Pillow==3.1.0
+PIL=1.1.6
 PyScreeze==0.1.8
 BlinkStick==1.1.8
 socketIO-client==0.5.6
